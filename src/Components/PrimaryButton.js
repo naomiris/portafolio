@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import cv from '../data/cv.pdf';
 
 function PrimaryButton ({title}) {
     return (
-        <PrimaryButtonStyled>
+        <PrimaryButtonStyled download="" href={cv}>
             {title}
         </PrimaryButtonStyled>
 
