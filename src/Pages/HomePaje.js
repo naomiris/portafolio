@@ -13,8 +13,7 @@ function HomePage(){
                 <Particle/>
             </div>
             <div className="typography">
-                <h1>Hi I am <span>Naomi</span></h1>
-                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+                <h1>Naomi Del Castillo <br/><span>Full Stack Developer</span></h1>
                 <div className="icons">
                     <a href="https://github.com/naomiris"className=" icon i-github">
                         <GitHubIcon/>
@@ -34,6 +33,7 @@ const HomePageStyled = styled.main`
     width: 100%;
     height: 100vh;
     position: relative;
+    
     .p-particles-js{
         position: absolute;
         top: 0;
@@ -51,7 +51,7 @@ const HomePageStyled = styled.main`
             justify-content: center;
             margin-top:1rem ;
             .icon{
-                border: 2px solid var(--border-color);
+                border: 2px solid var( --white-color);
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -59,8 +59,8 @@ const HomePageStyled = styled.main`
                 transform: all .4s ease-in-out ;
                 cursor: pointer;
                 &:hover{
-                    border: 2px solid var(--primary-color) ;
-                    color: var(--primary-color);
+                    border: 2px solid var(--blue-color) ;
+                    color: var(--blue-color);
                 }
                 &:not(:last-child){
                     margin-right: 1rem;
@@ -73,7 +73,7 @@ const HomePageStyled = styled.main`
             .i-github{
                 &:hover{
                     border: 2px solid #5F4687;
-                    color:  #5F4687;
+                    color:  #861CF0;
                 }
             }
         }

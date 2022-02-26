@@ -11,19 +11,19 @@ function Navigation() {
             </div>
             <ul className="nav-items">
                 <li className="nav-item">
-                    <NavLink to='/' activeClassName="active-class" exact>Home</NavLink>
+                    <NavLink to='/' ActiveClassName="active-class" exact='true'>Home</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to='/about' activeClassName="active-class" exact>About</NavLink>
+                    <NavLink to='/about' ActiveClassName="active-class" exact='true'>About</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to='/resume' activeClassName="active-class" exact>Resume</NavLink>
+                    <NavLink to='/resume' ActiveClassName="active-class" exact='true'>Resume</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to='/portfolios' activeClassName="active-class" exact>Portfolios</NavLink>
+                    <NavLink to='/portfolios' ActiveClassName="active-class" exact='true'>Portfolios</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to='/contact' activeClassName="active-class" exact>Contact</NavLink>
+                    <NavLink to='/contact' ActiveClassName="active-class" exact='true'>Contact</NavLink>
                 </li>
             </ul>
             <footer className="footer">
@@ -61,6 +61,7 @@ border-right: 1px solid var(--border-color);
     text-align: center;
     .active-class{
         background-color: var(--primary-color);
+        color: white;
     }
     li{
         display: block;
@@ -102,10 +103,11 @@ border-right: 1px solid var(--border-color);
     border-top: 1px solid var(--border-color);
     width: 100%;
     p{
-        padding: 2rem 0;
-        font-size: 1.1rem;
+        padding: 1rem 0;
+        font-size: .90rem;
         display: block;
         text-align: center;
+        font-family: dm sans,Sans-serif;
 
     }
 }
